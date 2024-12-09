@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <h2 id="a">First</h2>
+  <h1>Second</h1>
+  <h1>Third</h1>
+
+  <script>
+
+    //---------------------------------ONE WAY TO APPLY CSS IN DOM----------------------------------------
+
+    let x = document.getElementById("a");
+    x.style.color = "red";
+    x.style.backgroundColor = "voilet";
+    x.style.fontSize = "30px";
+
+    //---------------------------------SECOND WAY TO APPLY CSS-------------------------------------------- 
+
+    let y = document.getElementsByTagName("h1");
+    console.log(y);
+    y[0].style.cssText = "color:green; text-align:center"
+
+  </script>
+</body>
+</html>
