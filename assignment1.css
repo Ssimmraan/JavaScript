@@ -1,0 +1,17 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  border: 2px solid black;
+  margin-left: 450px;
+  margin-top: 50px;
+}
+
+label {
+  margin-left: 150px;
+}
