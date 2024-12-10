@@ -5,4 +5,5 @@ function f1()
   let z = document.getElementById("c").value;
 
   document.querySelector("body").style.backgroundColor = `rgb(${x}, ${y}, ${z})`;
+  document.querySelector("h1").innerText = `rgb(${x}, ${y}, ${z})`;
 }
